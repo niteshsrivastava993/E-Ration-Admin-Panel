@@ -1,0 +1,70 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.table th {
+  border-top: none;
+}
+
+.btn-outline-light.active {
+  background-color: #fff;
+  color: #212529;
+}
+
+.alert {
+  border-radius: 0.375rem;
+}
+
+.form-control:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.dropdown-menu {
+  border-radius: 0.375rem;
+}
+
+.table-responsive {
+  border-radius: 0.375rem;
+}
+
+.bg-primary {
+  background-color: #0d6efd !important;
+}
+
+.bg-success {
+  background-color: #198754 !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+/* Custom responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .navbar-nav .btn {
+    margin: 0.25rem 0;
+    width: 100%;
+  }
+}
